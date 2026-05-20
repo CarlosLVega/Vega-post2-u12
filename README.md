@@ -73,13 +73,3 @@ La siguiente evidencia muestra el estado final despues de retirar la violacion i
 
 ![Evidencia verde de ArchUnit](docs/capturas/evidencia-verde-archunit.png)
 
-## Verificacion local
-
-Antes de entregar el proyecto se debe verificar:
-
-```bash
-mvn test -Dtest=ReglasArquitectura --no-transfer-progress
-mvn verify --no-transfer-progress
-```
-
-Ambos comandos deben finalizar sin errores despues de revertir la violacion arquitectonica intencional usada para probar el pipeline rojo.
