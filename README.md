@@ -59,6 +59,20 @@ Las decisiones documentadas estan en `docs/adr`:
 
 Cada ADR incluye las secciones obligatorias: Estado, Contexto, Decision y Consecuencias.
 
+## Evidencias de ejecucion
+
+### Pipeline rojo: violacion detectada
+
+La siguiente evidencia muestra la violacion arquitectonica intencional usada para comprobar que ArchUnit detecta dependencias prohibidas desde el dominio hacia infraestructura.
+
+![Evidencia roja de ArchUnit](docs/capturas/evidencia-roja-archunit.png)
+
+### Pipeline verde: estado final corregido
+
+La siguiente evidencia muestra el estado final despues de retirar la violacion intencional. Las 5 reglas ArchUnit pasan y `mvn verify` finaliza correctamente.
+
+![Evidencia verde de ArchUnit](docs/capturas/evidencia-verde-archunit.png)
+
 ## Verificacion local
 
 Antes de entregar el proyecto se debe verificar:
