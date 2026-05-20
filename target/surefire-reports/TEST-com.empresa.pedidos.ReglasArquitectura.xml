@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.empresa.pedidos.ReglasArquitectura" time="1.079" tests="5" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.empresa.pedidos.ReglasArquitectura" time="1.319" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="MX"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\carlo\AppData\Local\Temp\surefire2027450514168746303\surefirebooter-20260519194215252_3.jar C:\Users\carlo\AppData\Local\Temp\surefire2027450514168746303 2026-05-19T19-42-15_134-jvmRun1 surefire-20260519194215252_1tmp surefire_0-20260519194215252_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\carlo\AppData\Local\Temp\surefire2781648306247266534\surefirebooter-20260519194311726_3.jar C:\Users\carlo\AppData\Local\Temp\surefire2781648306247266534 2026-05-19T19-43-11_521-jvmRun1 surefire-20260519194311726_1tmp surefire_0-20260519194311726_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="ReglasArquitectura"/>
     <property name="surefire.test.class.path" value="C:\Users\carlo\OneDrive\Documents\GitHub\Vega-post2-u12\target\test-classes;C:\Users\carlo\OneDrive\Documents\GitHub\Vega-post2-u12\target\classes;C:\Users\carlo\.m2\repository\org\springframework\spring-context\6.1.5\spring-context-6.1.5.jar;C:\Users\carlo\.m2\repository\org\springframework\spring-aop\6.1.5\spring-aop-6.1.5.jar;C:\Users\carlo\.m2\repository\org\springframework\spring-beans\6.1.5\spring-beans-6.1.5.jar;C:\Users\carlo\.m2\repository\org\springframework\spring-core\6.1.5\spring-core-6.1.5.jar;C:\Users\carlo\.m2\repository\org\springframework\spring-jcl\6.1.5\spring-jcl-6.1.5.jar;C:\Users\carlo\.m2\repository\org\springframework\spring-expression\6.1.5\spring-expression-6.1.5.jar;C:\Users\carlo\.m2\repository\io\micrometer\micrometer-observation\1.12.4\micrometer-observation-1.12.4.jar;C:\Users\carlo\.m2\repository\io\micrometer\micrometer-commons\1.12.4\micrometer-commons-1.12.4.jar;C:\Users\carlo\.m2\repository\org\springframework\spring-web\6.1.5\spring-web-6.1.5.jar;C:\Users\carlo\.m2\repository\com\tngtech\archunit\archunit-junit5\1.2.1\archunit-junit5-1.2.1.jar;C:\Users\carlo\.m2\repository\com\tngtech\archunit\archunit-junit5-api\1.2.1\archunit-junit5-api-1.2.1.jar;C:\Users\carlo\.m2\repository\com\tngtech\archunit\archunit\1.2.1\archunit-1.2.1.jar;C:\Users\carlo\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\carlo\.m2\repository\com\tngtech\archunit\archunit-junit5-engine\1.2.1\archunit-junit5-engine-1.2.1.jar;C:\Users\carlo\.m2\repository\com\tngtech\archunit\archunit-junit5-engine-api\1.2.1\archunit-junit5-engine-api-1.2.1.jar;C:\Users\carlo\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\carlo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\carlo\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\carlo\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\carlo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\carlo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\carlo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\carlo\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\carlo\AppData\Local\Temp\surefire2027450514168746303\surefirebooter-20260519194215252_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\carlo\AppData\Local\Temp\surefire2781648306247266534\surefirebooter-20260519194311726_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.2+10-LTS-69"/>
@@ -60,26 +60,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="dominioAislado" classname="ReglasArquitectura" time="1.065">
-    <failure message="Architecture Violation [Priority: MEDIUM] - Rule &apos;no classes that reside in a package &apos;..dominio..&apos; should depend on classes that reside in any package [&apos;..infraestructura..&apos;, &apos;..adaptadores..&apos;, &apos;javax.persistence..&apos;, &apos;org.springframework.mail..&apos;]&apos; was violated (1 times):&#10;Method &lt;com.empresa.pedidos.dominio.Pedido.dependenciaProhibidaParaPruebaDeArquitectura()&gt; references class object &lt;com.empresa.pedidos.infraestructura.RepositorioPedidosMemoria&gt; in (Pedido.java:45)" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
-Architecture Violation [Priority: MEDIUM] - Rule 'no classes that reside in a package '..dominio..' should depend on classes that reside in any package ['..infraestructura..', '..adaptadores..', 'javax.persistence..', 'org.springframework.mail..']' was violated (1 times):
-Method <com.empresa.pedidos.dominio.Pedido.dependenciaProhibidaParaPruebaDeArquitectura()> references class object <com.empresa.pedidos.infraestructura.RepositorioPedidosMemoria> in (Pedido.java:45)
-	at com.tngtech.archunit.lang.ArchRule$Assertions.assertNoViolation(ArchRule.java:94)
-	at com.tngtech.archunit.lang.ArchRule$Assertions.check(ArchRule.java:86)
-	at com.tngtech.archunit.lang.ArchRule$Factory$SimpleArchRule.check(ArchRule.java:165)
-	at com.tngtech.archunit.lang.syntax.ObjectsShouldInternal.check(ObjectsShouldInternal.java:81)
-	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:166)
-	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:149)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-]]></failure>
+  <testcase name="dominioAislado" classname="ReglasArquitectura" time="1.3">
     <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="controladoresSoloAccedenALaFacade" classname="ReglasArquitectura" time="0.002"/>
-  <testcase name="puertosDeDominioSonInterfaces" classname="ReglasArquitectura" time="0.0"/>
-  <testcase name="procesadoresImplementanProcesadorPedido" classname="ReglasArquitectura" time="0.0"/>
+  <testcase name="controladoresSoloAccedenALaFacade" classname="ReglasArquitectura" time="0.001"/>
+  <testcase name="puertosDeDominioSonInterfaces" classname="ReglasArquitectura" time="0.001"/>
+  <testcase name="procesadoresImplementanProcesadorPedido" classname="ReglasArquitectura" time="0.007"/>
   <testcase name="infraestructuraNoAccedeAAdaptadoresRest" classname="ReglasArquitectura" time="0.001"/>
 </testsuite>

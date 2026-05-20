@@ -1,17 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.empresa.pedidos.ReglasArquitectura
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.079 s <<< FAILURE! -- in com.empresa.pedidos.ReglasArquitectura
-ReglasArquitectura.dominioAislado -- Time elapsed: 1.065 s <<< FAILURE!
-java.lang.AssertionError: 
-Architecture Violation [Priority: MEDIUM] - Rule 'no classes that reside in a package '..dominio..' should depend on classes that reside in any package ['..infraestructura..', '..adaptadores..', 'javax.persistence..', 'org.springframework.mail..']' was violated (1 times):
-Method <com.empresa.pedidos.dominio.Pedido.dependenciaProhibidaParaPruebaDeArquitectura()> references class object <com.empresa.pedidos.infraestructura.RepositorioPedidosMemoria> in (Pedido.java:45)
-	at com.tngtech.archunit.lang.ArchRule$Assertions.assertNoViolation(ArchRule.java:94)
-	at com.tngtech.archunit.lang.ArchRule$Assertions.check(ArchRule.java:86)
-	at com.tngtech.archunit.lang.ArchRule$Factory$SimpleArchRule.check(ArchRule.java:165)
-	at com.tngtech.archunit.lang.syntax.ObjectsShouldInternal.check(ObjectsShouldInternal.java:81)
-	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:166)
-	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:149)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.319 s -- in com.empresa.pedidos.ReglasArquitectura

@@ -1,7 +1,5 @@
 package com.empresa.pedidos.dominio;
 
-import com.empresa.pedidos.infraestructura.RepositorioPedidosMemoria;
-
 import java.math.BigDecimal;
 import java.util.Objects;
 
@@ -39,9 +37,5 @@ public class Pedido {
 
     public void marcarProcesado() {
         estado = EstadoPedido.PROCESADO;
-    }
-
-    public Class<?> dependenciaProhibidaParaPruebaDeArquitectura() {
-        return RepositorioPedidosMemoria.class;
     }
 }
